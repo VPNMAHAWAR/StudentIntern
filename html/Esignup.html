@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>InternStudent | VPNMAHAWAR</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/offcanvas.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signup.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Intern Student</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Internships <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Notifications</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Switch account</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign In</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="Esignin.php">Employer</a>
+              <a class="dropdown-item" href="Ssignin.php">Student</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign Up</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="Esignup.php">Employer</a>
+              <a class="dropdown-item" href="Ssignup.php">Student</a>
+            </div>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav><br><br>
+
+    <div class="container" style="margin-top: 40px;">
+        <img class="mb-4" src="img/sign-up.png" alt="Plaese Sign Up" style="max-width: 360px; max-height: 100 ; width: 60%">
+        <form class="form-signup" method="POST" action="esignup.php">
+            <h1 class="h3 mb-3 font-weight-normal">Employer Sign Up</h1>
+<!-- 
+            <label for="fName" class="sr-only">First Name</label>
+            <input type="text" id="fName" class="form-control" placeholder="First Name" maxlength="10" required autofocus>
+
+            <label for="lName" class="sr-only">Last Name</label>
+            <input type="text" id="lName" class="form-control" placeholder="Last Name" maxlength="10" required autofocus>
+
+            <label for="cName" class="sr-only">Company Name</label>
+            <input type="text" id="cName" class="form-control" placeholder="Company Name" maxlength="20" required autofocus>
+
+            <label for="cAdd" class="sr-only">Company Address</label>
+            <input type="text" id="cAdd" class="form-control" placeholder="Company Address" maxlength="30" required>
+ -->
+
+            <label for="Name" class="sr-only">Name</label>
+            <input type="text" id="Name" name="name" class="form-control" placeholder="Your Good Name" maxlength="10" required autofocus>
+
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
+
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" name="pass" class="form-control" placeholder="Password" required>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+        </form>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; <a href="http://vpnmahawar.site" target="_blank">VPNMAHAWAR</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
