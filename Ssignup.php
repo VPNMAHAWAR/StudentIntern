@@ -92,7 +92,7 @@
             <h1 class="h3 mb-3 font-weight-normal">Student Sign Up</h1>
 
             <label for="Name" class="sr-only">Name</label>
-            <input type="text" name="name" class="form-control" placeholder="Your Good Name" maxlength="30" required autofocus>
+            <input type="text" name="name" class="form-control" placeholder="Your Good Name" maxlength="50" required autofocus>
 
             <label for="inputEmail" class="sr-only">Email address</label>
             <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>

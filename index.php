@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   require_once('check.php');
 
   require_once('conn.php');

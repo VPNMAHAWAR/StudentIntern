@@ -1,4 +1,5 @@
 <?php
+    ob_start();
   header("HTTP/1.0 404 Not Found");
 ?>
 <!DOCTYPE html>
@@ -8,16 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="design/img/jklogo15.png" sizes="32x32">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Training and Placement Cell | JK Institute | University of Allahabad</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119888543-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119888543-1');
-</script>
+    <title>InternStudent | VPNMAHAWAR</title>
 <style>
     *{
     padding: 0;
@@ -228,7 +220,7 @@
 		
 		<div class="page-ms">
 			<p class="page-msg"> Oops, the page you're looking for Disappeared </p>
-			<button class="go-back" onclick="window.location.href='index.html'">Go Back</button>
+			<button class="go-back" onclick="window.location.href='index.php'">Go Back</button>
 		</div>
     </div>
 </div>

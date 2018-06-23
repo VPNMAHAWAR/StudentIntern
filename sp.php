@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   require_once('check.php');
   if(!$check){
     header("location:Ssignin.php");

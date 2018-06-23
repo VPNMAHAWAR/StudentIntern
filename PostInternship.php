@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   require_once('check.php');
 ?>
 
@@ -90,10 +91,10 @@
         <h1 class="h3 mb-3 font-weight-normal">Post Internship</h1>
 
         <label for="iname" class="sr-only">Internship Name</label>
-        <input type="text" name="name" class="form-control" placeholder="Internship Name" maxlength="100" required autofocus>
+        <input type="text" name="name" class="form-control" placeholder="Internship Name (Max. 100 Char)" maxlength="100" required autofocus>
 
         <label for="iAbout" class="sr-only">About Internship</label>
-        <textarea name="about" cols="30" rows="5" class="form-control" placeholder="About Internship (Max. 150 Char)" maxlength="500" required></textarea>
+        <textarea name="about" cols="30" rows="5" class="form-control" placeholder="About Internship (Max. 500 Char)" maxlength="500" required></textarea>
         
         <button class="btn btn-lg btn-primary btn-block" type="submit">Post</button>
         

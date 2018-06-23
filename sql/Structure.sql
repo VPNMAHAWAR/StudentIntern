@@ -3,8 +3,8 @@ CREATE TABLE `employers` (
   `name` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  `cname` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
-  `caddress` varchar(60) COLLATE utf8_unicode_ci NOT NULL
+  `cname` varchar(60) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `caddress` varchar(60) COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `interns` (

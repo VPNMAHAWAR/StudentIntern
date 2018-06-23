@@ -1,5 +1,6 @@
 <?php
-	require_once('check.php');
+	ob_start();
+  require_once('check.php');
 	if (!$check) {
 		header("location:checkSignIn.php");
     	exit;
