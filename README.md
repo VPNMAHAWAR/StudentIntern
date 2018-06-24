@@ -21,12 +21,12 @@ Live URL: https://internstudent.000webhostapp.com
 
 And here are two dummy account details:
 
-Employers:<br>
-Robert Downy Jr
-robert@stark.com
-IamIronMan
+<b>Employers:</b><br>
+Robert Downy Jr<br>
+robert@stark.com<br>
+IamIronMan<br>
 
-Student:
-Tom Hiddleston
-loki@asgard.com
-IamADOPTED
+<b>Student:</b><br>
+Tom Hiddleston<br>
+loki@asgard.com<br>
+IamADOPTED<br>
