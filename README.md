@@ -20,7 +20,8 @@ Here are the details of the project:
 Live URL: https://internstudent.000webhostapp.com
 
 And here are two dummy account details:
-Employers:
+
+Employers:<br>
 Robert Downy Jr
 robert@stark.com
 IamIronMan
