@@ -18,15 +18,3 @@ Mainly, I concentrate on the following things:
 Here are the details of the project:
 
 Live URL: https://internstudent.000webhostapp.com
-
-And here are two dummy account details:
-
-<b>Employers:</b><br>
-Robert Downy Jr<br>
-robert@stark.com<br>
-IamIronMan<br>
-
-<b>Student:</b><br>
-Tom Hiddleston<br>
-loki@asgard.com<br>
-IamADOPTED<br>
