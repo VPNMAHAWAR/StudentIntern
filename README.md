@@ -1,6 +1,6 @@
 # InternStudent
 
-A website in Bootstrap, php, and MySQL which is an internship portal similar to that of Internshala, but on a much smaller scale.
+A Vulnerable website in Bootstrap, php, and MySQL which is an internship portal similar to that of Internshala, but on a much smaller scale.
 
 These are some of the basic functionalities:
 
@@ -14,7 +14,9 @@ Mainly, I concentrate on the following things:
 - Database design
 - Very basic decent design
 
-
-Here are the details of the project:
-
-Live URL: https://internstudent.000webhostapp.com
+Some of the Vulnerabilities include:
+- XSS
+- CSRF
+- Sqli
+- Blind Sql Injection
+- and many more
